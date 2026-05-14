@@ -22,9 +22,9 @@ def generar_inputs(items, color_tema):
 
 # --- PASO 1: INGRESAR ELEMENTOS ---
 with st.expander("📝 1. Ingresa tus elementos (separados por coma)", expanded=True):
-    entorno_txt = st.text_input("🌍 Tu Entorno", "Resistencia, UTN, Gym")
-    roles_txt = st.text_input("🤝 Tus Roles", "Hija, deportista, madre perruna")
-    nucleo_txt = st.text_input("✨ Tu Núcleo", "Lealtad, justicia, creatividad")
+    entorno_txt = st.text_input("🌍 Tu Entorno")
+    roles_txt = st.text_input("🤝 Tus Roles")
+    nucleo_txt = st.text_input("✨ Tu Núcleo")
 
 # Limpiamos los textos y los convertimos en listas
 entorno_items = [x.strip() for x in entorno_txt.split(",") if x.strip()]
