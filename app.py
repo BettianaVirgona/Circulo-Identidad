@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(page_title="Mapa de Identidad", page_icon="🎯", layout="centered")
 
-st.title("🎯 El Círculo de Mi Voz")
+st.title("🎯 El Círculo de Identidad")
 st.write("Escribe los elementos de cada capa y asígnales el peso que tienen en tu vida.")
 
 # Función auxiliar para generar inputs dinámicos basados en lo que escribe el usuario
