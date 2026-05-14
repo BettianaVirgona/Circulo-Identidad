@@ -89,4 +89,4 @@ if st.button("🚀 Generar Mi Gráfico Interactivo", use_container_width=True):
     # Mostrar gráfico en Streamlit
     st.plotly_chart(fig, use_container_width=True)
     
-    st.info("💡 **Tip interactivo:** ¡Tú o tu mentoreada pueden tocar o pasar el mouse sobre cada porción del gráfico para ver los valores exactos resaltados!")
+    st.info("Reflexión: Si tuvieras la posibilidad ¿Desde qué parte de este círculo te gustaría hablarle al mundo?")
