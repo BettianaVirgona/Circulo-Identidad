@@ -27,9 +27,9 @@ with st.expander("📝 1. Ingresa tus elementos (separados por coma)", expanded=
     nucleo_txt = st.text_input("✨ Tu Núcleo")
 
 # Limpiamos los textos y los convertimos en listas
-entorno_items = [x.strip() for x in entorno_txt.split(",") if x.strip()]
-roles_items = [x.strip() for x in roles_txt.split(",") if x.strip()]
 nucleo_items = [x.strip() for x in nucleo_txt.split(",") if x.strip()]
+roles_items = [x.strip() for x in roles_txt.split(",") if x.strip()]
+entorno_items = [x.strip() for x in entorno_txt.split(",") if x.strip()]
 
 # --- PASO 2: ASIGNAR PORCENTAJES ---
 with st.expander("⚖️ 2. Asigna el porcentaje a cada elemento", expanded=True):
